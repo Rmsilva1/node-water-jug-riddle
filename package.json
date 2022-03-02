@@ -1,0 +1,13 @@
+{
+  "name": "water-jug-challange-web",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Rafael Mateus <rafael41297@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
