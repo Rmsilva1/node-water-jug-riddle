@@ -1,13 +1,16 @@
 {
-  "name": "water-jug-challange-web",
+  "name": "node-water-jug-riddle",
   "version": "1.0.0",
   "description": "Node.js on Docker",
   "author": "Rafael Mateus <rafael41297@gmail.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "body-parser": "^1.19.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
   }
 }
