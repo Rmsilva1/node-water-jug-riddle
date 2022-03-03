@@ -45,8 +45,6 @@ const getGCD = (x, y) => {
 }
 
 const pourWater = (fromCapacity, toCapacity, d) => {
-    console.log("pouring water fromCapacity: ", fromCapacity, " toCapacity: ", toCapacity);
-
     let fromCap = fromCapacity;
     let toCap = 0;
 
@@ -65,13 +63,11 @@ const pourWater = (fromCapacity, toCapacity, d) => {
         }
 
         if (fromCap === 0) {
-            console.log("fill capacity: ", fromCapacity);
             fromCap = fromCapacity;
             reqStep++;
         }
 
         if (toCap === toCapacity) {
-            console.log("empty to capacity: ", toCapacity);
             toCap = 0;
             reqStep++;
         }
